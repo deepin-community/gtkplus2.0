@@ -1,5 +1,24 @@
+gtk+2.0 (2.24.33-4+deepin) unstable; urgency=medium
+
+  [ gongheng ]
+  * add topic
+
+ -- gongheng <gongheng@uniontech.com>  Wed, 4 Jan 2023 10:15:00 +0800
+
+gtk+2.0 (2.24.33-3+deepin) unstable; urgency=medium
+
+  [ gongheng ]
+  * debian/patches:
+    - Add patch file dde-filedialog.patch.
+      The patch implements the feature of gtk calling dde-file-manager file select dialog.
+  * debian/patches/series:
+    - Add patch file record in the series.
+
+ -- gongheng <gongheng@uniontech.com>  Wed, 1 Nov 2022 10:05:00 +0800
+
 gtk+2.0 (2.24.33-2) unstable; urgency=medium
 
+  * rebuild
   * Team upload
   * d/rules: Build udeb with extra CPPFLAGS.
     This allows adding special-case code for debian-installer where
